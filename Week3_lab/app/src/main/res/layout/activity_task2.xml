@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task2"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:id="@+id/btn_ifelse"
+        android:text="if 문 버튼"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:id="@+id/btn_switch"
+        android:text="switch case문 버튼"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:hint="점수 입력"
+        android:id="@+id/et_score"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_ifelse"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_switch"/>
+
+
+
+</LinearLayout>
