@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task2"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="URL을 입력해주세요"
+        android:id="@+id/et_url"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="홈페이지 열기"
+        android:textSize="24sp"
+        android:id="@+id/btn_openurl"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="네이버 홈페이지"
+        android:textSize="24sp"
+        android:id="@+id/btn_openfav1"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="구글 홈페이지"
+        android:textSize="24sp"
+        android:id="@+id/btn_openfav2"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="페이스북 홈페이지"
+        android:textSize="24sp"
+        android:id="@+id/btn_openfav3"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="종료하기"
+        android:textSize="24sp"
+        android:id="@+id/btn_finish"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+</LinearLayout>
