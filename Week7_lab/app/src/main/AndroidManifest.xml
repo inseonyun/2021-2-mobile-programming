@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.week7_lab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Week7_lab">
+        <activity android:name=".Task5">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Task4">
+
+        </activity>
+        <activity android:name=".Task3_FourthActivity">
+
+        </activity>
+        <activity android:name=".Task3_FirstActivity" />
+        <activity android:name=".Task3_SecondActivity" />
+        <activity android:name=".Task3_ThirdActivity" />
+        <activity android:name=".Task2" >
+
+        </activity>
+        <activity android:name=".Task1" >
+
+        </activity>
+    </application>
+
+</manifest>
