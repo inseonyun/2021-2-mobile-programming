@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.week9_lab">
+
+    <!-- 인터넷 권한 설정 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/web"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Week9_lab">
+        <activity android:name=".Task5" android:label = "간단 웹브라우저">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Task4_first" >
+
+        </activity>
+        <activity android:name=".Task3_first">
+
+        </activity>
+        <activity android:name=".Task2_first">
+
+        </activity>
+        <activity android:name=".Task1_first">
+
+        </activity>
+        <activity android:name=".Task1_second" />
+        <activity android:name=".Task1_third" />
+        <activity android:name=".Task2_second" />
+        <activity android:name=".Task2_third" />
+        <activity android:name=".Task3_second" />
+        <activity android:name=".Task3_third" />
+        <activity android:name=".Task4_second" />
+        <activity android:name=".Task4_third" />
+        <activity android:name=".Task4_fourth" />
+    </application>
+
+</manifest>

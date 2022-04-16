@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task2_first"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_self"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자기소개" />
+
+    <Button
+        android:id="@+id/btn_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전공"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="즐겨찾는 사이트"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서랍 밖입니다."
+        android:visibility="gone" />
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="과제 서랍 손잡이" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여기는 서랍 안입니다."
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/btn_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="자동차 클래스"/>
+
+            <Button
+                android:id="@+id/btn_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="간단한 계산기"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_scale"
+                android:text="서랍 확장"
+                android:textColor="@color/white"
+                android:backgroundTint="#555555"/>
+
+        </LinearLayout>
+
+    </SlidingDrawer>
+
+
+</LinearLayout>
